@@ -1,0 +1,6 @@
+Site centralizado -
+Imagens do mesmo tamanho -
+Imagens com borda arredondada
+Fundo do meu site com uma cor escura ou imagem -
+Fundo do meu site com uma cor escura -
+Texto do site em branco -
