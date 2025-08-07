@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    
+  <div class="externo">
+    <ul>
+      <div class="input">
+      <li><input id="operation" /></li>
+      <li><input id="result" /></li>
+      </div>
+      <div class="button">
+      <li>
+        <button id="cl">Clear</button>
+        <button id="div">/</button>
+        <button id="x">*</button>
+      </li>
+      <li>
+        <button id="bt7">7</button>
+        <button id="bt8">8</button>
+        <button id="bt9">9</button>
+        <button id="sub">-</button>
+      </li>
+      <li>
+        <button id="bt4">4</button>
+        <button id="bt5">5</button>
+        <button id="bt6">6</button>
+        <button id="adc">+</button>
+      </li>
+      <li>
+        <button id="bt1">1</button>
+        <button id="bt2">2</button>
+        <button id="bt3">3</button>
+        <button id="delta">Δ</button>
+      </li>
+      <li>
+        <button id="bt0">0</button>
+        <button id="res">=</button>
+      </li>
+      </div>
+    </ul>
+  </div>
+  
+  
+  <div class="bhaskara">
+    <h3>Resolução : Bhaskara</h3>
+    
+    <input id="a" placeholder="a"> 
+    <input id="b" placeholder="b">
+    <input id="c" placeholder="c">
+    <br>
+    <button id="bhaskara" onclick ="calcular()">Calcular</button>
+    <br><br><br>
+    <div id="r"></div>
+  </div>
+  
+  <div class="pitagoras">
+    <h3>Resolução : Pitágoras</h3>
+    <input id="aa" type="number" placeholder="Cateto A"><br>
+    <input id="bb" type="number" placeholder="Cateto B"><br>
+    <br><br><br>
+    <button id="bpit" onclick="calc()">Calcular</button>
+    <br><br>
+    <p id="rest"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

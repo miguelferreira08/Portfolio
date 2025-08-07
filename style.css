@@ -22,6 +22,12 @@ body{
     justify-content: end;
 }
 
+.flex2{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+}
+
 .logo img{
     width: 48px;
     height: 48px;

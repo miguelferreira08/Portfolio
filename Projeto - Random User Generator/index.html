@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto : API</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navitem">
+        <a href="Images/home.svg" id="home" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <h5>Home</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/user.svg" id="userphotos" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
+              fill="currentColor"
+            />
+            <path
+              d="M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <h5>User Photos</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/book.svg" id="documentation" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+          >
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+              sketch:type="MSPage"
+            >
+              <g
+                id="Icon-Set-Filled"
+                sketch:type="MSLayerGroup"
+                transform="translate(-414.000000, -101.000000)"
+                fill="currentColor"
+              >
+                <path
+                  d="M418,101 C415.791,101 414,102.791 414,105 L414,126 C414,128.209 415.885,129.313 418,130 L429,133 L429,104 C423.988,102.656 418,101 418,101 L418,101 Z M442,101 C442,101 436.212,102.594 430.951,104 L431,104 L431,133 C436.617,131.501 442,130 442,130 C444.053,129.469 446,128.209 446,126 L446,105 C446,102.791 444.209,101 442,101 L442,101 Z"
+                  id="book-album"
+                  sketch:type="MSShapeGroup"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <h5>Documentation</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/pencil.svg" id="changelog" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.29289 3.70711L1 11V15H5L12.2929 7.70711L8.29289 3.70711Z"
+              fill="currentColor"
+            />
+            <path
+              d="M9.70711 2.29289L13.7071 6.29289L15.1716 4.82843C15.702 4.29799 16 3.57857 16 2.82843C16 1.26633 14.7337 0 13.1716 0C12.4214 0 11.702 0.297995 11.1716 0.828428L9.70711 2.29289Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <h5>Change Log</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/graphic.svg" id="graphic" class="navbaropt">
+          <svg
+            fill="currentColor"
+            height="800px"
+            width="800px"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M42.549,16.701c-1.593,0-2.888,1.296-2.888,2.888c0,0.387,0.079,0.756,0.218,1.094l-8.549,7.957c-0.458-0.306-1.007-0.486-1.598-0.486c-0.3,0-0.59,0.049-0.868,0.137l-2.732-3.442c0.204-0.401,0.324-0.841,0.324-1.304c0-1.592-1.295-2.888-2.888-2.888s-2.888,1.296-2.888,2.888c0,0.146,0.027,0.286,0.048,0.428l-6.895,5.407c-0.447-0.283-0.972-0.454-1.54-0.454c-1.593,0-2.888,1.296-2.888,2.888c0,1.593,1.295,2.889,2.888,2.889s2.888-1.296,2.888-2.889c0-0.294-0.057-0.573-0.139-0.84l6.667-5.228c0.018,0.015,0.031,0.035,0.049,0.049c0.511,0.412,1.154,0.639,1.811,0.639c0.382,0,0.753-0.075,1.096-0.216l2.627,3.31c-0.28,0.45-0.448,0.965-0.448,1.514c0,1.593,1.295,2.889,2.888,2.889c1.592,0,2.888-1.296,2.888-2.889c0-0.266-0.048-0.518-0.115-0.762l8.736-8.13c0.395,0.203,0.835,0.328,1.309,0.328c1.592,0,2.888-1.296,2.888-2.888S44.142,16.701,42.549,16.701z"
+            />
+          </svg>
+        </a>
+        <h5>Stats & Graphs</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/heart.svg" id="donate" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.24264 8.24264L8 15L14.7574 8.24264C15.553 7.44699 16 6.36786 16 5.24264V5.05234C16 2.8143 14.1857 1 11.9477 1C10.7166 1 9.55233 1.55959 8.78331 2.52086L8 3.5L7.21669 2.52086C6.44767 1.55959 5.28338 1 4.05234 1C1.8143 1 0 2.8143 0 5.05234V5.24264C0 6.36786 0.44699 7.44699 1.24264 8.24264Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <h5>Donate</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/coin.svg" id="copyright" class="navbaropt">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM9 5H7V11H9V5Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <h5>Copyright Notice</h5>
+      </div>
+
+      <div class="navitem">
+        <a href="Images/photoshop.svg" id="photoshop" class="navbaropt">
+          <svg
+            fill="currentColor"
+            width="800px"
+            height="800px"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M426.333,0.5H85.667C38.825,0.5,0.5,38.825,0.5,85.667v340.667c0,46.842,38.325,85.167,85.167,85.167h340.667c46.842,0,85.167-38.325,85.167-85.167V85.667C511.5,38.825,473.175,0.5,426.333,0.5z M245.329,260.524c-17.736,17.736-45.611,26.065-77.103,26.065c-8.326,0-15.927-0.365-21.72-1.451v91.945h-44.159V136.363c15.927-2.895,38.009-5.069,68.05-5.069c32.582,0,56.473,6.878,72.039,19.911c14.48,11.947,23.89,31.131,23.89,53.936C266.325,228.309,259.086,247.492,245.329,260.524z M337.981,380.706c-21.358,0-40.542-5.069-53.574-12.31l8.687-32.216c10.135,6.154,29.322,12.671,45.249,12.671c19.545,0,28.236-7.964,28.236-19.549c0-11.943-7.239-18.099-28.96-25.7c-34.391-11.947-48.866-30.769-48.505-51.403c0-31.131,25.7-55.383,66.604-55.383c19.549,0,36.562,5.069,46.695,10.496l-8.687,31.493c-7.602-4.342-21.721-10.135-37.285-10.135c-15.928,0-24.615,7.602-24.615,18.46c0,11.224,8.326,16.655,30.77,24.618c31.854,11.582,46.696,27.871,47.058,53.937C409.653,357.539,384.678,380.706,337.981,380.706z M221.8,206.95c0,28.598-20.273,44.887-53.574,44.887c-9.049,0-16.289-0.362-21.72-1.809v-82.534c4.708-1.085,13.395-2.171,25.704-2.171C202.979,165.323,221.8,179.803,221.8,206.95z"
+            />
+          </svg>
+        </a>
+        <h5>Photoshop Extension</h5>
+      </div>
+    </div>
+
+    <h1>RANDOM USER GENERATOR</h1>
+    <div class="areadocard">
+    <div class="card">
+      <div class="cardtopo">
+        <div class="cardphoto">
+           <img src="./Images/cristianoronaldo.jpg" alt="Foto de Perfil">
+        </div>
+      </div>
+        
+      <br><br>
+      <p class="cardtext" id="desc">Olá, meu nome é</p>
+      <h2 id="nome">Cristiano Ronaldo</h2>
+      <div class="icons">
+        <ul class="lista">
+            <li><i class='bxr  bx-user-circle'></i></li>
+            <li><i class='bxr  bx-envelope-open'></i></li>
+            <li><i class='bxr  bx-gift'></i></li>
+            <li><i class='bxr  bx-location-alt'></i></li>
+            <li><i class='bxr  bx-phone'></i></li>
+            <li><i class='bxr  bx-lock-keyhole'></i></li>
+        </ul>
+      </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

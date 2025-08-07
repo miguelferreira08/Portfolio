@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+    background: linear-gradient(180deg, rgb(44, 44, 44) 75%, rgba(255, 255, 255, 1) 0%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+ 
+
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.navitem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+.navbaropt img{
+    width: 30px;
+    height: 30px;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    color: rgb(246, 248, 248);
+}
+
+
+
+h5{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(246, 248, 248);
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(246, 248, 248);
+    font-size: 37px;
+}
+
+.card{
+    background-color: rgb(255, 255, 241);
+    height: 425px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.cardtopo{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.cardphoto{
+   display: flex;
+   background-color: rgb(207, 207, 207);
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 55px;
+}
+
+.cardphoto img{
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.icons{
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 241);
+    margin-top: 50px;
+}
+
+.icons ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin: 0 15px;
+}
+
+.areadocard{
+ position: absolute;
+ width: 100vw;
+ top: 200px;
+ display: flex;
+ justify-content: center;
+}
+
+p{
+    color: rgb(165, 165, 165);
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 3px;
+}
+
+i{
+    font-size: 45px;
+}

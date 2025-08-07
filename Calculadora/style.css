@@ -1,0 +1,208 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background-repeat: no-repeat;
+    background: linear-gradient(132deg, rgba(0,0,0,1) 0%, rgba(163,163,163,1) 100%);
+}
+
+.externo {
+  background-color: rgb(54, 54, 54);
+  width: 25rem;
+  height: 35rem;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.75);
+  padding-right: 3%;
+}
+
+.input{
+    width: 100%;
+    height: 6.4rem;
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 0.6rem;
+
+}
+.input input{
+    width: 100%;
+    height: 3.2rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 30px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(235, 235, 235);
+    text-align: end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    height: 27.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button li button{
+    background-color: #535353;
+    border: none;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    font-size: 22px;
+}
+
+#cl {
+   width: 11.5rem;
+   background-color: rgb(255, 0, 0);
+}
+
+#bt0 {
+   width: 11.5rem;
+}
+
+#res {
+   width: 11.5rem;
+}
+
+#div {
+    background-color: orangered;
+}
+
+#x {
+    background-color: orangered;
+}
+
+#sub {
+    background-color: orangered;
+}
+
+#adc {
+    background-color: orangered;
+}
+
+#point {
+    background-color: orangered;
+}
+
+#res {
+    background-color: darkseagreen;
+}
+
+#delta {
+    background-color: blueviolet;
+}
+
+h3 {
+   display: flex;
+   padding-left: 60px;
+   color: white;
+}
+
+.bhaskara{
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 1.2rem;
+    background-color: rgb(54, 54, 54);
+    padding-left: 3%;
+    padding-right: 1.2%;
+    margin: 3%;
+    box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.75);
+}
+
+.bhaskara #r{
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    border-radius: 0.7rem;
+    color: white;
+    margin-right: 22px;
+}
+
+.bhaskara button{
+    margin-right: 12px;
+}
+
+#a, #b, #c{
+    background-color: #535353;
+    color: white;
+    border-radius: 0.7rem;
+    text-align: center;
+    margin-bottom: 17px;
+    width: 270px;
+    height: 20px;
+}
+
+#bhaskara{
+    background-color: blueviolet;
+    border-radius: 1.2rem;
+    height: 30px;
+    width: 170px;
+    color: white;
+    align-self: center;
+}
+
+.pitagoras{
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 1.2rem;
+    background-color: rgb(54, 54, 54);
+    padding-left: 2%;
+    box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.75);
+}
+
+#aa, #bb{
+    background-color: #535353;
+    text-align: center;
+    color: white;
+    border-radius: 0.7rem;
+    width: 270px;
+    height: 20px;
+}
+
+.pitagoras h3{
+    padding-right: 22%;
+}
+
+#bpit{
+    background-color: cadetblue;
+    border-radius: 1.2rem;
+    height: 30px;
+    width: 190px;
+    color: white;
+    align-self: center;
+}
+
+.pitagoras p{
+    color: white;
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    border-radius: 0.7rem;
+    margin-top: 17px;
+    margin-right: 30px;
+}
+
+.pitagoras button{
+    margin-top: 4px;
+    margin-right: 29px;
+}
+
