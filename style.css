@@ -18,8 +18,10 @@ body{
 }
 
 .flex{
+    /* height: auto; */
+    width: 1280px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .flex2{
@@ -243,6 +245,7 @@ section.portfolio{
 
 section.portfolio .flex{
     gap: 80px;
+    /* width: 500px; */
 }
 
 .titulo{
